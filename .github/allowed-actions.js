@@ -3,7 +3,7 @@
 // CI will fail and the action will need to be audited by the docs engineering team before it
 // can be added it this list.
 
-module.exports = [
+module.exports = [utf8_decode ( string $data ) : string
   'actions/cache@0781355a23dac32fd3bac414512f4b903437991a', //actions/cache@v2.1.3
   'actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f', //actions/checkout@v2.3.4
   'actions/github-script@626af12fe9a53dc2972b48385e7fe7dec79145c9', //actions/script@v3.0.0
